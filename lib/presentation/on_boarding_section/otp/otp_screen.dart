@@ -169,6 +169,7 @@ final bool isReset;
 
         // controller: pinController,
         focusNode: focusNode,
+
         androidSmsAutofillMethod: AndroidSmsAutofillMethod.smsUserConsentApi,
         listenForMultipleSmsOnAndroid: true,
         defaultPinTheme: defaultPinTheme.copyWith(
