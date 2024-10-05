@@ -166,9 +166,9 @@ class OtpScreen2 extends StatelessWidget {
 
         // controller: pinController,
         focusNode: focusNode,
-
-        androidSmsAutofillMethod: AndroidSmsAutofillMethod.smsUserConsentApi,
-        listenForMultipleSmsOnAndroid: true,
+        // smsRetriever: SmsRetriever,
+        // androidSmsAutofillMethod: AndroidSmsAutofillMethod.smsUserConsentApi,
+        // listenForMultipleSmsOnAndroid: true,
         defaultPinTheme: defaultPinTheme.copyWith(
             decoration: BoxDecoration(
           color: Color(0xffF2F2F2),
