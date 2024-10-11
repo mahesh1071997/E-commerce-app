@@ -580,7 +580,8 @@ class ProductDetailsScreen extends StatelessWidget {
               ),
             ),
           ).onTap(() {
-            Get.to(()=>const CartScreen());
+            // Get.to(()=>const CartScreen());
+
           }),
           Container(
             height: Adaptive.h(6),
@@ -894,4 +895,6 @@ class SimilarPopularBrandWidget extends StatelessWidget {
       ),
     );
   }
+
+
 }
